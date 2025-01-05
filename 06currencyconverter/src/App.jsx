@@ -31,8 +31,15 @@ function App() {
             backgroundImage: `url('https://images.pexels.com/photos/14971894/pexels-photo-14971894/free-photo-of-panoramic-view-of-a-modern-city-downtown.jpeg')`,
         }}
     >
-        <div className="w-full">
-            <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+        <div className="w-1/2 gap-10 flex">
+            <div className='w-full bg-no-repeat bg-cover bg-black text-white' 
+              style ={{
+                backgroundImage:`url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkoeN6d6d0GvtQwvGWJTxMr0F_jnV5HL6CYQ&s')`,
+              }}
+            
+            
+            ></div>
+            <div className=" max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
                         e.preventDefault();
