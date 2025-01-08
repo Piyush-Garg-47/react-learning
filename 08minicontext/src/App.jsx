@@ -1,5 +1,7 @@
-
+import React , { useState } from 'react'
 import './App.css'
+import Login from './Components/login'
+import Profile from './Components/Profile'
 import UserContextProvider from './context/UserContextProvider'
 
 function App() {
@@ -7,7 +9,9 @@ function App() {
 
   return (
     <UserContextProvider>
-      
+      <h1>Welcome to learning of rect </h1>
+      <Login />
+      <Profile />
     </UserContextProvider>
   )
 }
